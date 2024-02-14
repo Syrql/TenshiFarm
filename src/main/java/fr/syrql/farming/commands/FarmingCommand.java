@@ -15,6 +15,10 @@ public class FarmingCommand extends ACommand {
 
     @Override
     public boolean execute(CommandSender sender, String[] args) {
+
+        if (args.length == 0) {
+            return true;
+        }
         return true;
     }
 }

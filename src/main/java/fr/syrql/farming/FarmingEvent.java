@@ -1,5 +1,6 @@
 package fr.syrql.farming;
 
+import fr.syrql.farming.commands.FarmingCommand;
 import fr.syrql.farming.config.ConfigManager;
 import fr.syrql.farming.listener.FarmingListener;
 import fr.syrql.farming.manager.FarmingManager;
@@ -37,6 +38,7 @@ public class FarmingEvent extends JavaPlugin {
     }
 
     private void registerCommands() {
+        new FarmingCommand(this);
 
     }
 

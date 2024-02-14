@@ -10,10 +10,10 @@ public class TargetData {
     private String name;
     private List<String> lore;
     private int slot;
-    private int points;
+    private double points;
     private TargetAction targetAction;
 
-    public TargetData(Material type, Material target, String name, List<String> lore, int slot, int points, TargetAction targetAction) {
+    public TargetData(Material type, Material target, String name, List<String> lore, int slot, double points, TargetAction targetAction) {
         this.type = type;
         this.target = target;
         this.name = name;
@@ -63,11 +63,11 @@ public class TargetData {
         this.slot = slot;
     }
 
-    public int getPoints() {
+    public double getPoints() {
         return points;
     }
 
-    public void setPoints(int points) {
+    public void setPoints(double points) {
         this.points = points;
     }
 
