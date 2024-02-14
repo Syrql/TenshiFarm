@@ -1,0 +1,104 @@
+NOT_PLAYER: "&cVous n'êtes pas un joueur."
+NO_PERMISSION: "&cVous n'avez pas la permission d'executer cette commande."
+PREFIX: "&6&lFarm &8» "
+
+MAX_TARGETS: 3
+ROTATE_TIME: 600
+NOT_FOUND_FORMAT_PLACEHOLDER: "✘"
+
+INVENTORY:
+  NAME: "&6&lTournoi agricole"
+  SIZE: 45
+  BORDER_TYPE: "STAINED_GLASS_PANE"
+  BORDER_NAME: " "
+  BORDER_DATA: 8
+  BORDER_SLOTS:
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+    - 7
+    - 8
+    - 9
+    - 10
+    - 11
+    - 12
+    - 13
+    - 14
+    - 15
+    - 16
+    - 17
+    - 18
+    - 19
+    - 20
+    - 21
+    - 22
+    - 23
+    - 24
+    - 25
+    - 26
+    - 27
+    - 28
+    - 29
+    - 30
+    - 31
+    - 32
+    - 33
+    - 34
+    - 35
+    - 36
+    - 37
+    - 38
+    - 39
+    - 40
+    - 41
+    - 42
+    - 43
+    - 44
+
+TARGETS:
+  1:
+    TYPE: "NETHER_WARTS"
+    ICON: "NETHER_STALK"
+    NAME: "&e✯ &4Verrue du Nether"
+    LORE:
+      - ""
+      - "&7Gain: &f1 point"
+    SLOT: 1
+    POINTS: 1
+    ACTION: "BREAK"
+  2:
+    TYPE: "MELON_BLOCK"
+    ICON: "MELON_BLOCK"
+    NAME: "&e✯ &aMelon"
+    LORE:
+      - ""
+      - "&7Gain: &f1 point"
+    SLOT: 2
+    POINTS: 1
+    ACTION: "BREAK"
+
+START_MESSAGE:
+  - ""
+  - "&6&lTournoi agricole"
+  - ""
+  - "&fLe tournoi agricole vient de commencer ! Récoltez le plus de cultures"
+  - "&fdisponibles dans le /farming"
+
+STOP_MESSAGE:
+  - ""
+  - "&6&lTournoi agricole"
+  - ""
+  - "&fLe tournoi est terminé !"
+  - ""
+  - "&e&l#1 &f%farmingevent_ranking_name:1% &8▸ &e%farmingevent_ranking_points:1%points"
+  - "&7&l#2 &f%farmingevent_ranking_name:1% &8▸ &7%farmingevent_ranking_points:1%points"
+  - "&6&l#3 &f%farmingevent_ranking_name:1% &8▸ &6%farmingevent_ranking_points:1%points"
+  - ""
+  - "Classement personnel:"
+  - ""
+  - "&fPosition: &a%farmingevent_ranking_position_me%"
+  - "&fPoints: &b%farmingevent_ranking_me%"
+  - ""

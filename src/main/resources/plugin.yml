@@ -1,0 +1,4 @@
+name: FarmingEvent
+version: 0.0.1
+author: SYRQL
+main: fr.syrql.farming.FarmingEvent
