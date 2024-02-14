@@ -9,7 +9,7 @@ public class FarmingCommand extends ACommand {
     private final FarmingEvent farmingEvent;
 
     public FarmingCommand(FarmingEvent farmingEvent) {
-        super(farmingEvent, "farmingevent", "command.farmingevent", true)
+        super(farmingEvent, "farmingevent", "command.farmingevent", true);
         this.farmingEvent = farmingEvent;
     }
 
