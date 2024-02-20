@@ -1,2 +1,1 @@
-## This plugin was leaked on February 19, 2024 by myself, since the client decided to lie about his opinion, the specifications were respected 100%, the opinion received on this plugin is fraudulent, be careful with the service provider, his discord: nyhroz.
-# Nyhroz message for you old shit: pay 100€ and I'll put your plugin back privately, otherwise you can always smoke your feet.
+## Sur 2000 membres EndMC, y'en a-t-il un qui s'est dit: Et si on demandait de voir le git que NyhroZ possède ? Je suis désolé de vous annoncer que vous êtes malheureusement sur le mauvais repo github, son plugin est au chaud en private, il s'appelle FarmingEvent. Bandes de merde, pas un seul compétent pour demander un screen du git privé de NyhroZ, trop triste
